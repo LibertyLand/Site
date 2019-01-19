@@ -25,7 +25,7 @@
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
-			}, 50);
+			}, 20);
 		});
 
 	// Mobile?
