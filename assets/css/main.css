@@ -3562,6 +3562,20 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 	}
+	
+	#banner .image {
+			-moz-order: 1;
+			-webkit-order: 1;
+			-ms-order: 1;
+			order: 1;
+			border-radius: 0;
+			height: 100%;
+		}
+
+			#banner .image img {
+				border-radius: 0;
+				width: 100%;
+			}
 
 		#banner h2 {
 			-moz-transform: scale(1);
