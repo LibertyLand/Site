@@ -3536,6 +3536,11 @@ input, select, textarea {
 
 /* Banner */
 
+	.banner-responsive {
+		max-width: 100%;
+		height: auto;
+	}
+
 	#banner {
 		display: -moz-flex;
 		display: -webkit-flex;
