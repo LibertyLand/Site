@@ -585,3 +585,13 @@
 	};
 
 })(jQuery);
+
+// Copy IP
+function copyToClipboard() {
+	const ip = document.querySelector('.button.primary');
+	const range = document.createRange();
+	range.selectNode(ip);
+	window.getSelection().addRange(range);
+	document.execCommand("copy");
+	window.getSelection().removeRange(range);
+}
