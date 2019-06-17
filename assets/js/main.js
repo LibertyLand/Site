@@ -1,5 +1,3 @@
-
-
 (function($) {
 	var	$window = $(window),
 		$body = $('body'),
@@ -14,13 +12,6 @@
 			medium:   [ '737px',   '980px'  ],
 			small:    [ '481px',   '736px'  ],
 			xsmall:   [ null,      '480px'  ]
-		});
-
-	// Play initial animations on page load.
-		$window.on('load', function() {
-			window.setTimeout(function() {
-				$body.removeClass('is-preload');
-			});
 		});
 
 	// Mobile?
