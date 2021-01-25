@@ -43,6 +43,41 @@
     <!-- Copyright (C) 2017-2020 - LibertyLand Network & LIBLND - All Rights Reserved -->
 </head>
 
+<!-- Warn -->
+<div id="warn" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+		<span class="close">&times;</span>
+		<br>
+		<h2>Important Information about LibertyLand</h2>
+	</div>
+	<div class="modal-body">
+		<br>
+		<p>LibertyLand is having funding issues to continue its operations,
+		as such, LibertyLand has been shut down by our hosting provider due to
+		missing payments. Therefore, we ask you for your support to continue running.</p>
+		<p>Please visit our <a href="https://store.libertyland.xyz">webstore</a> if you want to support us.
+		We have set up a Community Goal so you can track how much is needed. Thanks!</p>
+	</div>
+  </div>
+</div>
+
+<!-- Warn Script -->
+<script>
+	var modal = document.getElementById('warn');
+	modal.style.display = "block";
+	
+	document.getElementsByClassName("close")[0].onclick = function() {
+		modal.style.display = "none";
+	}
+	
+	window.onclick = function(event) {
+		if (event.target == modal) {
+			modal.style.display = "none";
+		}
+	}
+</script>
+
 <body>
 <!-- Page Wrapper -->
 <div id="page-wrapper">
